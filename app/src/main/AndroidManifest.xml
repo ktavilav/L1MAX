@@ -30,6 +30,16 @@
             android:name=".CarouselActivity"
             android:exported="false"
             android:theme="@style/Theme.L1MAX" />
+        
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false"
+            android:theme="@style/Theme.L1MAX" />
+        
+        <activity
+            android:name=".ValidationActivity"
+            android:exported="false"
+            android:theme="@style/Theme.L1MAX" />
     </application>
 
 </manifest>

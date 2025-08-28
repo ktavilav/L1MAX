@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/macbookair/AndroidStudioProjects/L1MAX/app/src/main/AndroidManifest.xml:2:1-35:12
-INJECTED from /Users/macbookair/AndroidStudioProjects/L1MAX/app/src/main/AndroidManifest.xml:2:1-35:12
-INJECTED from /Users/macbookair/AndroidStudioProjects/L1MAX/app/src/main/AndroidManifest.xml:2:1-35:12
-INJECTED from /Users/macbookair/AndroidStudioProjects/L1MAX/app/src/main/AndroidManifest.xml:2:1-35:12
+ADDED from /Users/macbookair/AndroidStudioProjects/L1MAX/app/src/main/AndroidManifest.xml:2:1-45:12
+INJECTED from /Users/macbookair/AndroidStudioProjects/L1MAX/app/src/main/AndroidManifest.xml:2:1-45:12
+INJECTED from /Users/macbookair/AndroidStudioProjects/L1MAX/app/src/main/AndroidManifest.xml:2:1-45:12
+INJECTED from /Users/macbookair/AndroidStudioProjects/L1MAX/app/src/main/AndroidManifest.xml:2:1-45:12
 MERGED from [com.airbnb.android:lottie-compose:6.1.0] /Users/macbookair/.gradle/caches/8.9/transforms/83c70165d1c73394b3b92c653ed2022f/transformed/lottie-compose-6.1.0/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.compose.material3:material3:1.1.2] /Users/macbookair/.gradle/caches/8.9/transforms/4f5b9cbeafd7038e05a198d062d405af/transformed/material3-1.1.2/AndroidManifest.xml:17:1-22:12
 MERGED from [com.airbnb.android:lottie:6.1.0] /Users/macbookair/.gradle/caches/8.9/transforms/e0908cce52fee7f5155da9567336b8f1/transformed/lottie-6.1.0/AndroidManifest.xml:2:1-9:12
@@ -78,8 +78,8 @@ ADDED from /Users/macbookair/AndroidStudioProjects/L1MAX/app/src/main/AndroidMan
 	android:name
 		ADDED from /Users/macbookair/AndroidStudioProjects/L1MAX/app/src/main/AndroidManifest.xml:5:22-64
 application
-ADDED from /Users/macbookair/AndroidStudioProjects/L1MAX/app/src/main/AndroidManifest.xml:7:5-33:19
-INJECTED from /Users/macbookair/AndroidStudioProjects/L1MAX/app/src/main/AndroidManifest.xml:7:5-33:19
+ADDED from /Users/macbookair/AndroidStudioProjects/L1MAX/app/src/main/AndroidManifest.xml:7:5-43:19
+INJECTED from /Users/macbookair/AndroidStudioProjects/L1MAX/app/src/main/AndroidManifest.xml:7:5-43:19
 MERGED from [com.airbnb.android:lottie:6.1.0] /Users/macbookair/.gradle/caches/8.9/transforms/e0908cce52fee7f5155da9567336b8f1/transformed/lottie-6.1.0/AndroidManifest.xml:7:5-20
 MERGED from [com.airbnb.android:lottie:6.1.0] /Users/macbookair/.gradle/caches/8.9/transforms/e0908cce52fee7f5155da9567336b8f1/transformed/lottie-6.1.0/AndroidManifest.xml:7:5-20
 MERGED from [androidx.compose.ui:ui-test-manifest:1.5.4] /Users/macbookair/.gradle/caches/8.9/transforms/6dd1deb21649009c176de5de880025d3/transformed/ui-test-manifest-1.5.4/AndroidManifest.xml:22:5-26:19
@@ -148,6 +148,22 @@ ADDED from /Users/macbookair/AndroidStudioProjects/L1MAX/app/src/main/AndroidMan
 		ADDED from /Users/macbookair/AndroidStudioProjects/L1MAX/app/src/main/AndroidManifest.xml:32:13-47
 	android:name
 		ADDED from /Users/macbookair/AndroidStudioProjects/L1MAX/app/src/main/AndroidManifest.xml:30:13-45
+activity#com.l1max.app.LoginActivity
+ADDED from /Users/macbookair/AndroidStudioProjects/L1MAX/app/src/main/AndroidManifest.xml:34:9-37:50
+	android:exported
+		ADDED from /Users/macbookair/AndroidStudioProjects/L1MAX/app/src/main/AndroidManifest.xml:36:13-37
+	android:theme
+		ADDED from /Users/macbookair/AndroidStudioProjects/L1MAX/app/src/main/AndroidManifest.xml:37:13-47
+	android:name
+		ADDED from /Users/macbookair/AndroidStudioProjects/L1MAX/app/src/main/AndroidManifest.xml:35:13-42
+activity#com.l1max.app.ValidationActivity
+ADDED from /Users/macbookair/AndroidStudioProjects/L1MAX/app/src/main/AndroidManifest.xml:39:9-42:50
+	android:exported
+		ADDED from /Users/macbookair/AndroidStudioProjects/L1MAX/app/src/main/AndroidManifest.xml:41:13-37
+	android:theme
+		ADDED from /Users/macbookair/AndroidStudioProjects/L1MAX/app/src/main/AndroidManifest.xml:42:13-47
+	android:name
+		ADDED from /Users/macbookair/AndroidStudioProjects/L1MAX/app/src/main/AndroidManifest.xml:40:13-47
 uses-sdk
 INJECTED from /Users/macbookair/AndroidStudioProjects/L1MAX/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/macbookair/AndroidStudioProjects/L1MAX/app/src/main/AndroidManifest.xml

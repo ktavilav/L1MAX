@@ -653,6 +653,9 @@ drawable ic_call_answer_video_low
 drawable ic_call_decline
 drawable ic_call_decline_low
 drawable l1maxjugadores3
+drawable logoentel
+drawable logol1max
+drawable logologinentel
 drawable movil_l1p_1
 drawable notification_action_background
 drawable notification_bg

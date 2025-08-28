@@ -68,7 +68,7 @@ fun SplashScreen(onSplashComplete: () -> Unit = {}) {
     Box(
         modifier = Modifier
             .fillMaxSize()
-            .background(Color(0xFF2D0A0A)), // Fondo oscuro rojizo similar a la imagen
+            .background(Color(0xFF1c0105)), // Fondo oscuro rojizo similar a la imagen
         contentAlignment = Alignment.Center
     ) {
         Column(

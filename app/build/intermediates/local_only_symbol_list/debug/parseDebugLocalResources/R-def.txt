@@ -7,6 +7,9 @@ color white
 drawable carousel_phone
 drawable carousel_players
 drawable l1maxjugadores3
+drawable logoentel
+drawable logol1max
+drawable logologinentel
 drawable movil_l1p_1
 mipmap ic_launcher
 mipmap ic_launcher_round

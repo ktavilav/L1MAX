@@ -36,8 +36,9 @@ class CarouselActivity : ComponentActivity() {
                         // TODO: Add navigation to main app screen
                     },
                     onEntelClick = {
-                        // Handle Entel button click
-                        // TODO: Add Entel specific functionality
+                        // Navigate to LoginActivity
+                        val intent = Intent(this@CarouselActivity, LoginActivity::class.java)
+                        startActivity(intent)
                     }
                 )
             }
@@ -65,31 +66,18 @@ fun CarouselScreen(
     Column(
         modifier = Modifier
             .fillMaxSize()
-            .background(Color(0xFF2D1B1B)), // Dark reddish background
+            .background(Color(0xFF1c0105)), // L1MAX logo background color
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         // L1MAX Logo at top
-        Row(
+        Image(
+            painter = painterResource(id = R.drawable.logol1max),
+            contentDescription = "L1MAX Logo",
             modifier = Modifier
-                .fillMaxWidth()
-                .padding(top = 50.dp, start = 20.dp),
-            verticalAlignment = Alignment.CenterVertically
-        ) {
-            // Star icon
-            Text(
-                text = "✦",
-                color = Color(0xFFFF4444),
-                fontSize = 24.sp,
-                modifier = Modifier.padding(end = 8.dp)
-            )
-            // L1MAX text
-            Text(
-                text = "L1MAX",
-                color = Color(0xFFFF4444),
-                fontSize = 24.sp,
-                fontWeight = FontWeight.Bold
-            )
-        }
+                .padding(top = 50.dp)
+                .height(40.dp),
+            contentScale = ContentScale.Fit
+        )
         
         Spacer(modifier = Modifier.height(40.dp))
         
@@ -162,7 +150,7 @@ fun CarouselScreen(
                 .padding(horizontal = 30.dp)
                 .height(50.dp),
             colors = ButtonDefaults.buttonColors(
-                containerColor = Color(0xFF0066CC)
+                containerColor = Color(0xFF0052CC)
             ),
             shape = RoundedCornerShape(8.dp)
         ) {
@@ -170,25 +158,13 @@ fun CarouselScreen(
                 verticalAlignment = Alignment.CenterVertically,
                 horizontalArrangement = Arrangement.Center
             ) {
-                // Entel logo placeholder
-                Text(
-                    text = "e",
-                    color = Color.White,
-                    fontSize = 20.sp,
-                    fontWeight = FontWeight.Bold,
+                // Entel logo
+                Image(
+                    painter = painterResource(id = R.drawable.logoentel),
+                    contentDescription = "Entel Logo",
                     modifier = Modifier
-                        .background(
-                            Color.White,
-                            RoundedCornerShape(12.dp)
-                        )
-                        .padding(horizontal = 8.dp, vertical = 4.dp)
-                )
-                Spacer(modifier = Modifier.width(8.dp))
-                Text(
-                    text = "entel",
-                    color = Color.White,
-                    fontSize = 14.sp,
-                    fontWeight = FontWeight.Normal
+                        .height(24.dp),
+                    contentScale = ContentScale.Fit
                 )
                 Spacer(modifier = Modifier.width(8.dp))
                 Text(
