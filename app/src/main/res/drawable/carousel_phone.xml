@@ -1,0 +1,83 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="300dp"
+    android:viewportWidth="200"
+    android:viewportHeight="300">
+    
+    <!-- Phone background -->
+    <path
+        android:fillColor="#1a1a1a"
+        android:pathData="M20,20 L180,20 Q190,20 190,30 L190,270 Q190,280 180,280 L20,280 Q10,280 10,270 L10,30 Q10,20 20,20 Z" />
+    
+    <!-- Screen -->
+    <path
+        android:fillColor="#ff4444"
+        android:pathData="M25,40 L175,40 Q180,40 180,45 L180,220 Q180,225 175,225 L25,225 Q20,225 20,220 L20,45 Q20,40 25,40 Z" />
+    
+    <!-- L1MAX logo on screen -->
+    <group android:translateX="100" android:translateY="80">
+        <!-- Star icon -->
+        <path
+            android:fillColor="#ffffff"
+            android:pathData="M92,0 L97,6 L103,6 L108,0 L103,-6 L97,-6 Z" />
+        <!-- L1MAX text -->
+        <group android:translateY="20">
+            <path
+                android:fillColor="#ffffff"
+                android:pathData="M75,15 L75,25 L85,25 L85,23 L77,23 L77,15 Z" />
+            <path
+                android:fillColor="#ffffff"
+                android:pathData="M90,15 L92,15 L92,25 L90,25 Z" />
+            <path
+                android:fillColor="#ffffff"
+                android:pathData="M95,15 L97,15 L100,20 L103,15 L105,15 L101,22 L105,25 L103,25 L100,22 L97,25 L95,25 L99,22 Z" />
+            <path
+                android:fillColor="#ffffff"
+                android:pathData="M108,15 L115,15 L118,20 L115,25 L108,25 L111,20 Z" />
+            <path
+                android:fillColor="#ffffff"
+                android:pathData="M120,15 L125,15 L128,20 L125,25 L120,25 L123,20 Z" />
+        </group>
+    </group>
+    
+    <!-- Explosion effects around phone -->
+    <group android:translateX="100" android:translateY="150">
+        <!-- Red fragments -->
+        <path
+            android:fillColor="#ff4444"
+            android:pathData="M20,100 L25,105 L15,110 Z" />
+        <path
+            android:fillColor="#ff4444"
+            android:pathData="M180,180 L185,185 L175,190 Z" />
+        <path
+            android:fillColor="#ff4444"
+            android:pathData="M30,210 L35,215 L25,220 Z" />
+        <path
+            android:fillColor="#ff4444"
+            android:pathData="M190,120 L195,125 L185,130 Z" />
+        
+        <!-- White fragments -->
+        <path
+            android:fillColor="#ffffff"
+            android:pathData="M10,170 L15,175 L5,180 Z" />
+        <path
+            android:fillColor="#ffffff"
+            android:pathData="M170,90 L175,95 L165,100 Z" />
+        <path
+            android:fillColor="#ffffff"
+            android:pathData="M40,80 L45,85 L35,90 Z" />
+        <path
+            android:fillColor="#ffffff"
+            android:pathData="M185,200 L190,205 L180,210 Z" />
+    </group>
+    
+    <!-- Cards/elements around phone -->
+    <path
+        android:fillColor="#333333"
+        android:pathData="M35,190 L65,190 L65,210 L35,210 Z" />
+    
+    <path
+        android:fillColor="#666666"
+        android:pathData="M140,90 L165,90 L165,105 L140,105 Z" />
+    
+</vector>

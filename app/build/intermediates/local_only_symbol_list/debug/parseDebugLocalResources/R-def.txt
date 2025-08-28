@@ -1,0 +1,18 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color dark_red
+color red
+color white
+drawable carousel_phone
+drawable carousel_players
+drawable l1maxjugadores3
+drawable movil_l1p_1
+mipmap ic_launcher
+mipmap ic_launcher_round
+raw animacion
+string app_name
+style Base.Theme.L1MAX
+style Theme.L1MAX
+xml backup_rules
+xml data_extraction_rules
