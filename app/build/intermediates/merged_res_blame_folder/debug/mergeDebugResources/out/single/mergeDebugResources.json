@@ -1,11 +1,15 @@
 [
     {
-        "merged": "/Users/macbookair/.gradle/daemon/8.9/com.l1max.app-debug-51:/xml_backup_rules.xml.flat",
-        "source": "/Users/macbookair/.gradle/daemon/8.9/com.l1max.app-main-53:/xml/backup_rules.xml"
+        "merged": "/Users/macbookair/.gradle/daemon/8.9/com.l1max.app-debug-51:/drawable_logohome.png.flat",
+        "source": "/Users/macbookair/.gradle/daemon/8.9/com.l1max.app-main-53:/drawable/logohome.png"
     },
     {
-        "merged": "com.l1max.app-debug-51:/drawable_logologinentel.png.flat",
-        "source": "com.l1max.app-main-53:/drawable/logologinentel.png"
+        "merged": "/Users/macbookair/.gradle/daemon/8.9/com.l1max.app-debug-51:/drawable_apple.png.flat",
+        "source": "/Users/macbookair/.gradle/daemon/8.9/com.l1max.app-main-53:/drawable/apple.png"
+    },
+    {
+        "merged": "/Users/macbookair/.gradle/daemon/8.9/com.l1max.app-debug-51:/xml_backup_rules.xml.flat",
+        "source": "/Users/macbookair/.gradle/daemon/8.9/com.l1max.app-main-53:/xml/backup_rules.xml"
     },
     {
         "merged": "/Users/macbookair/.gradle/daemon/8.9/com.l1max.app-debug-51:/xml_data_extraction_rules.xml.flat",
@@ -28,6 +32,18 @@
         "source": "/Users/macbookair/.gradle/daemon/8.9/com.l1max.app-main-53:/raw/animacion.json"
     },
     {
+        "merged": "com.l1max.app-debug-51:/drawable_letter.png.flat",
+        "source": "com.l1max.app-main-53:/drawable/letter.png"
+    },
+    {
+        "merged": "/Users/macbookair/.gradle/daemon/8.9/com.l1max.app-debug-51:/drawable_logologinentel.png.flat",
+        "source": "/Users/macbookair/.gradle/daemon/8.9/com.l1max.app-main-53:/drawable/logologinentel.png"
+    },
+    {
+        "merged": "/Users/macbookair/.gradle/daemon/8.9/com.l1max.app-debug-51:/drawable_jugadorhome.png.flat",
+        "source": "/Users/macbookair/.gradle/daemon/8.9/com.l1max.app-main-53:/drawable/jugadorhome.png"
+    },
+    {
         "merged": "/Users/macbookair/.gradle/daemon/8.9/com.l1max.app-debug-51:/drawable_carousel_phone.xml.flat",
         "source": "/Users/macbookair/.gradle/daemon/8.9/com.l1max.app-main-53:/drawable/carousel_phone.xml"
     },
@@ -40,8 +56,8 @@
         "source": "/Users/macbookair/.gradle/daemon/8.9/com.l1max.app-main-53:/drawable/logol1max.png"
     },
     {
-        "merged": "/Users/macbookair/.gradle/daemon/8.9/com.l1max.app-debug-51:/raw_cat_animation.json.flat",
-        "source": "/Users/macbookair/.gradle/daemon/8.9/com.l1max.app-main-53:/raw/cat_animation.json"
+        "merged": "com.l1max.app-debug-51:/drawable_google.png.flat",
+        "source": "com.l1max.app-main-53:/drawable/google.png"
     },
     {
         "merged": "/Users/macbookair/.gradle/daemon/8.9/com.l1max.app-debug-51:/drawable_l1maxjugadores3.png.flat",

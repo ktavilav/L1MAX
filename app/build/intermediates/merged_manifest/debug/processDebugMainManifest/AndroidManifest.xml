@@ -53,6 +53,14 @@
             android:exported="false"
             android:theme="@style/Theme.L1MAX" />
         <activity
+            android:name="com.l1max.app.RegisterActivity"
+            android:exported="false"
+            android:theme="@style/Theme.L1MAX" />
+        <activity
+            android:name="com.l1max.app.LoginOptionsActivity"
+            android:exported="false"
+            android:theme="@style/Theme.L1MAX" />
+        <activity
             android:name="androidx.activity.ComponentActivity"
             android:exported="true" />
         <activity

@@ -1,0 +1,19 @@
+<lint-module
+    format="1"
+    dir="/Users/macbookair/AndroidStudioProjects/L1MAX/app"
+    name=":app"
+    type="APP"
+    maven="L1MAX:app:unspecified"
+    agpVersion="8.7.3"
+    buildFolder="build"
+    bootClassPath="/Users/macbookair/Library/Android/sdk/platforms/android-34/android.jar:/Users/macbookair/Library/Android/sdk/build-tools/34.0.0/core-lambda-stubs.jar"
+    javaSourceLevel="1.8"
+    compileTarget="android-34"
+    neverShrinking="true">
+  <lintOptions
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="release"/>
+</lint-module>

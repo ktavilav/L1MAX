@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.7.3" type="partial_results">
+    <map id="UnsafeIntentLaunch">
+            <map id="unprotected">
+                <entry
+                    name="com.l1max.app.MainActivity"
+                    boolean="true"/>
+            </map>
+    </map>
+    <map id="UnusedResources">
+        <location id="R.color.black"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/colors.xml"
+            line="3"
+            column="12"
+            startOffset="62"
+            endLine="3"
+            endColumn="24"
+            endOffset="74"/>
+        <location id="R.color.dark_red"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/colors.xml"
+            line="5"
+            column="12"
+            startOffset="146"
+            endLine="5"
+            endColumn="27"
+            endOffset="161"/>
+        <location id="R.color.red"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/colors.xml"
+            line="6"
+            column="12"
+            startOffset="191"
+            endLine="6"
+            endColumn="22"
+            endOffset="201"/>
+        <location id="R.color.white"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/colors.xml"
+            line="4"
+            column="12"
+            startOffset="104"
+            endLine="4"
+            endColumn="24"
+            endOffset="116"/>
+        <location id="R.drawable.carousel_phone"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/drawable/carousel_phone.xml"
+            line="1"
+            column="1"
+            startOffset="0"
+            endLine="83"
+            endColumn="10"
+            endOffset="3125"/>
+        <location id="R.drawable.carousel_players"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/drawable/carousel_players.xml"
+            line="1"
+            column="1"
+            startOffset="0"
+            endLine="142"
+            endColumn="10"
+            endOffset="4488"/>
+        <location id="R.drawable.jugadorhome"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/drawable/jugadorhome.png"/>
+        <location id="R.drawable.logohome"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/drawable/logohome.png"/>
+        <entry
+            name="model"
+            string="color[black(D),white(D),dark_red(D),red(D)],drawable[apple(U),carousel_phone(D),carousel_players(D),jugadorhome(D),l1maxjugadores3(U),logoentel(U),logohome(D),logol1max(U),logologinentel(U),movil_l1p_1(U)],mipmap[ic_launcher(U),ic_launcher_round(U)],raw[animacion(U)],string[app_name(U)],style[Theme_L1MAX(U),Base_Theme_L1MAX(U),Theme_AppCompat_DayNight_NoActionBar(R)],xml[data_extraction_rules(U),backup_rules(U)];12^13,13^14;;;"/>
+    </map>
+
+</incidents>

@@ -1,0 +1,71 @@
+{
+  "teams": [
+    {
+      "id": "ali",
+      "name": "ALI",
+      "fullName": "Alianza Lima",
+      "logo": "team_ali",
+      "isLive": true
+    },
+    {
+      "id": "uni",
+      "name": "UNI",
+      "fullName": "Universitario",
+      "logo": "team_uni",
+      "isLive": false
+    },
+    {
+      "id": "adt",
+      "name": "ADT",
+      "fullName": "ADT Tarma",
+      "logo": "team_adt",
+      "isLive": false
+    },
+    {
+      "id": "sba",
+      "name": "SBA",
+      "fullName": "Sport Boys",
+      "logo": "team_sba",
+      "isLive": false
+    },
+    {
+      "id": "cag",
+      "name": "CAG",
+      "fullName": "Carlos A. Mannucci",
+      "logo": "team_cag",
+      "isLive": false
+    }
+  ],
+  "matches": [
+    {
+      "id": "match_1",
+      "homeTeam": {
+        "name": "Sporting Cristal",
+        "logo": "team_cristal"
+      },
+      "awayTeam": {
+        "name": "Carlos Mannucci",
+        "logo": "team_mannucci"
+      },
+      "image": "match_cristal_mannucci",
+      "isLive": true,
+      "stars": 3
+    }
+  ],
+  "liveChannels": [
+    {
+      "id": "l1max",
+      "name": "L1MAX",
+      "logo": "channel_l1max",
+      "isLive": true,
+      "backgroundColor": "#2B1B1B"
+    },
+    {
+      "id": "l1",
+      "name": "L1",
+      "logo": "channel_l1",
+      "isLive": true,
+      "backgroundColor": "#FFFFFF"
+    }
+  ]
+}

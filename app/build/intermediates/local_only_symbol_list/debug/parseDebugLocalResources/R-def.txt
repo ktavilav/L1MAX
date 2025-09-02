@@ -4,10 +4,15 @@ color black
 color dark_red
 color red
 color white
+drawable apple
 drawable carousel_phone
 drawable carousel_players
+drawable google
+drawable jugadorhome
 drawable l1maxjugadores3
+drawable letter
 drawable logoentel
+drawable logohome
 drawable logol1max
 drawable logologinentel
 drawable movil_l1p_1

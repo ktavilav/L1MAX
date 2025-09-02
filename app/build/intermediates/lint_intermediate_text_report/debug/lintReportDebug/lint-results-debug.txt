@@ -1,0 +1,133 @@
+/Users/macbookair/AndroidStudioProjects/L1MAX/app/build.gradle.kts:14: Warning: Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the android.os.Build.VERSION_CODES javadoc for details. [OldTargetApi]
+        targetSdk = 34
+        ~~~~~~~~~~~~~~
+
+   Explanation for issues of type "OldTargetApi":
+   When your application runs on a version of Android that is more recent than
+   your targetSdkVersion specifies that it has been tested with, various
+   compatibility modes kick in. This ensures that your application continues
+   to work, but it may look out of place. For example, if the targetSdkVersion
+   is less than 14, your app may get an option button in the UI.
+
+   To fix this issue, set the targetSdkVersion to the highest available value.
+   Then test your app to make sure everything works correctly. You may want to
+   consult the compatibility notes to see what changes apply to each version
+   you are adding support for:
+   https://developer.android.com/reference/android/os/Build.VERSION_CODES.html
+   as well as follow this guide:
+   https://developer.android.com/distribute/best-practices/develop/target-sdk.
+   html
+
+   https://developer.android.com/distribute/best-practices/develop/target-sdk.html
+
+/Users/macbookair/AndroidStudioProjects/L1MAX/app/src/main/AndroidManifest.xml:20: Warning: Redundant label can be removed [RedundantLabel]
+            android:label="@string/app_name"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "RedundantLabel":
+   When an activity does not have a label attribute, it will use the one from
+   the application tag. Since the application has already specified the same
+   label, the label on this activity can be omitted.
+
+/Users/macbookair/AndroidStudioProjects/L1MAX/app/src/main/res/drawable/carousel_phone.xml:3: Warning: Limit vector icons sizes to 200×200 to keep icon drawing fast; see https://developer.android.com/studio/write/vector-asset-studio#when for more [VectorRaster]
+    android:height="300dp"
+                    ~~~~~
+/Users/macbookair/AndroidStudioProjects/L1MAX/app/src/main/res/drawable/carousel_players.xml:2: Warning: Limit vector icons sizes to 200×200 to keep icon drawing fast; see https://developer.android.com/studio/write/vector-asset-studio#when for more [VectorRaster]
+    android:width="300dp"
+                   ~~~~~
+
+   Explanation for issues of type "VectorRaster":
+   Vector icons require API 21 or API 24 depending on used features, but when
+   minSdkVersion is less than 21 or 24 and Android Gradle plugin 1.4 or higher
+   is used, a vector drawable placed in the drawable folder is automatically
+   moved to drawable-anydpi-v21 or drawable-anydpi-v24 and bitmap images are
+   generated for different screen resolutions for backwards compatibility.
+
+   However, there are some limitations to this raster image generation, and
+   this lint check flags elements and attributes that are not fully supported.
+   You should manually check whether the generated output is acceptable for
+   those older devices.
+
+/Users/macbookair/AndroidStudioProjects/L1MAX/app/build.gradle.kts:54: Warning: A newer version of androidx.core:core-ktx than 1.12.0 is available: 1.17.0 [GradleDependency]
+    implementation("androidx.core:core-ktx:1.12.0")
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/macbookair/AndroidStudioProjects/L1MAX/app/build.gradle.kts:55: Warning: A newer version of androidx.lifecycle:lifecycle-runtime-ktx than 2.7.0 is available: 2.9.3 [GradleDependency]
+    implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.7.0")
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/macbookair/AndroidStudioProjects/L1MAX/app/build.gradle.kts:56: Warning: A newer version of androidx.activity:activity-compose than 1.8.2 is available: 1.10.1 [GradleDependency]
+    implementation("androidx.activity:activity-compose:1.8.2")
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/macbookair/AndroidStudioProjects/L1MAX/app/build.gradle.kts:57: Warning: A newer version of androidx.compose:compose-bom than 2023.10.01 is available: 2025.08.01 [GradleDependency]
+    implementation(platform("androidx.compose:compose-bom:2023.10.01"))
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/macbookair/AndroidStudioProjects/L1MAX/app/build.gradle.kts:70: Warning: A newer version of androidx.test.ext:junit than 1.1.5 is available: 1.3.0 [GradleDependency]
+    androidTestImplementation("androidx.test.ext:junit:1.1.5")
+                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/macbookair/AndroidStudioProjects/L1MAX/app/build.gradle.kts:71: Warning: A newer version of androidx.test.espresso:espresso-core than 3.5.1 is available: 3.7.0 [GradleDependency]
+    androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
+                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/macbookair/AndroidStudioProjects/L1MAX/app/build.gradle.kts:72: Warning: A newer version of androidx.compose:compose-bom than 2023.10.01 is available: 2025.08.01 [GradleDependency]
+    androidTestImplementation(platform("androidx.compose:compose-bom:2023.10.01"))
+                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "GradleDependency":
+   This detector looks for usages of libraries where the version you are using
+   is not the current stable release. Using older versions is fine, and there
+   are cases where you deliberately want to stick with an older version.
+   However, you may simply not be aware that a more recent version is
+   available, and that is what this lint check helps find.
+
+/Users/macbookair/AndroidStudioProjects/L1MAX/app/src/main/res/drawable/carousel_phone.xml:1: Warning: The resource R.drawable.carousel_phone appears to be unused [UnusedResources]
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+^
+/Users/macbookair/AndroidStudioProjects/L1MAX/app/src/main/res/drawable/carousel_players.xml:1: Warning: The resource R.drawable.carousel_players appears to be unused [UnusedResources]
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+^
+/Users/macbookair/AndroidStudioProjects/L1MAX/app/src/main/res/values/colors.xml:3: Warning: The resource R.color.black appears to be unused [UnusedResources]
+    <color name="black">#FF000000</color>
+           ~~~~~~~~~~~~
+/Users/macbookair/AndroidStudioProjects/L1MAX/app/src/main/res/values/colors.xml:4: Warning: The resource R.color.white appears to be unused [UnusedResources]
+    <color name="white">#FFFFFFFF</color>
+           ~~~~~~~~~~~~
+/Users/macbookair/AndroidStudioProjects/L1MAX/app/src/main/res/values/colors.xml:5: Warning: The resource R.color.dark_red appears to be unused [UnusedResources]
+    <color name="dark_red">#FF4A0E0E</color>
+           ~~~~~~~~~~~~~~~
+/Users/macbookair/AndroidStudioProjects/L1MAX/app/src/main/res/values/colors.xml:6: Warning: The resource R.color.red appears to be unused [UnusedResources]
+    <color name="red">#FFFF0000</color>
+           ~~~~~~~~~~
+/Users/macbookair/AndroidStudioProjects/L1MAX/app/src/main/res/drawable/jugadorhome.png: Warning: The resource R.drawable.jugadorhome appears to be unused [UnusedResources]
+/Users/macbookair/AndroidStudioProjects/L1MAX/app/src/main/res/drawable/logohome.png: Warning: The resource R.drawable.logohome appears to be unused [UnusedResources]
+
+   Explanation for issues of type "UnusedResources":
+   Unused resources make applications larger and slow down builds.
+
+
+   The unused resource check can ignore tests. If you want to include
+   resources that are only referenced from tests, consider packaging them in a
+   test source set instead.
+
+   You can include test sources in the unused resource check by setting the
+   system property lint.unused-resources.include-tests =true, and to exclude
+   them (usually for performance reasons), use
+   lint.unused-resources.exclude-tests =true.
+   ,
+
+/Users/macbookair/AndroidStudioProjects/L1MAX/app/src/main/res/drawable/apple.png: Warning: Found bitmap drawable res/drawable/apple.png in densityless folder [IconLocation]
+/Users/macbookair/AndroidStudioProjects/L1MAX/app/src/main/res/drawable/jugadorhome.png: Warning: Found bitmap drawable res/drawable/jugadorhome.png in densityless folder [IconLocation]
+/Users/macbookair/AndroidStudioProjects/L1MAX/app/src/main/res/drawable/l1maxjugadores3.png: Warning: Found bitmap drawable res/drawable/l1maxjugadores3.png in densityless folder [IconLocation]
+/Users/macbookair/AndroidStudioProjects/L1MAX/app/src/main/res/drawable/logoentel.png: Warning: Found bitmap drawable res/drawable/logoentel.png in densityless folder [IconLocation]
+/Users/macbookair/AndroidStudioProjects/L1MAX/app/src/main/res/drawable/logohome.png: Warning: Found bitmap drawable res/drawable/logohome.png in densityless folder [IconLocation]
+/Users/macbookair/AndroidStudioProjects/L1MAX/app/src/main/res/drawable/logol1max.png: Warning: Found bitmap drawable res/drawable/logol1max.png in densityless folder [IconLocation]
+/Users/macbookair/AndroidStudioProjects/L1MAX/app/src/main/res/drawable/logologinentel.png: Warning: Found bitmap drawable res/drawable/logologinentel.png in densityless folder [IconLocation]
+/Users/macbookair/AndroidStudioProjects/L1MAX/app/src/main/res/drawable/movil_l1p_1.png: Warning: Found bitmap drawable res/drawable/movil_l1p_1.png in densityless folder [IconLocation]
+
+   Explanation for issues of type "IconLocation":
+   The res/drawable folder is intended for density-independent graphics such
+   as shapes defined in XML. For bitmaps, move it to drawable-mdpi and
+   consider providing higher and lower resolution versions in drawable-ldpi,
+   drawable-hdpi and drawable-xhdpi. If the icon really is density independent
+   (for example a solid color) you can place it in drawable-nodpi.
+
+   https://developer.android.com/guide/practices/screens_support.html
+
+0 errors, 27 warnings

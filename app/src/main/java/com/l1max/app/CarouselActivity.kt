@@ -32,9 +32,10 @@ class CarouselActivity : ComponentActivity() {
             L1MAXTheme {
                 CarouselScreen(
                     onContinueClick = {
-                        // Navigate to next screen
-                        // TODO: Add navigation to main app screen
-                    },
+                         // Navigate to LoginOptionsActivity
+                         val intent = Intent(this@CarouselActivity, LoginOptionsActivity::class.java)
+                         startActivity(intent)
+                     },
                     onEntelClick = {
                         // Navigate to LoginActivity
                         val intent = Intent(this@CarouselActivity, LoginActivity::class.java)

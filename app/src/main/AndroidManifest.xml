@@ -40,6 +40,17 @@
             android:name=".ValidationActivity"
             android:exported="false"
             android:theme="@style/Theme.L1MAX" />
+        
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false"
+            android:theme="@style/Theme.L1MAX" />
+        
+        <activity
+            android:name=".LoginOptionsActivity"
+            android:exported="false"
+            android:theme="@style/Theme.L1MAX" />
+        
     </application>
 
 </manifest>

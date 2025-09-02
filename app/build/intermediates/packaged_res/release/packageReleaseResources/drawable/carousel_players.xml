@@ -1,0 +1,142 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="300dp"
+    android:height="200dp"
+    android:viewportWidth="300"
+    android:viewportHeight="200">
+    
+    <!-- Background explosion effect -->
+    <!-- Red fragments -->
+    <path
+        android:fillColor="#ff4444"
+        android:pathData="M30,40 L35,45 L25,50 Z" />
+    <path
+        android:fillColor="#ff4444"
+        android:pathData="M260,140 L265,145 L255,150 Z" />
+    <path
+        android:fillColor="#ff4444"
+        android:pathData="M50,170 L55,175 L45,180 Z" />
+    <path
+        android:fillColor="#ff4444"
+        android:pathData="M270,60 L275,65 L265,70 Z" />
+    
+    <!-- White fragments -->
+    <path
+        android:fillColor="#ffffff"
+        android:pathData="M20,130 L25,135 L15,140 Z" />
+    <path
+        android:fillColor="#ffffff"
+        android:pathData="M250,30 L255,35 L245,40 Z" />
+    <path
+        android:fillColor="#ffffff"
+        android:pathData="M60,20 L65,25 L55,30 Z" />
+    <path
+        android:fillColor="#ffffff"
+        android:pathData="M265,160 L270,165 L260,170 Z" />
+    
+    <!-- Player 1 (Left) - White jersey -->
+    <!-- Head -->
+    <circle
+        android:centerX="80"
+        android:centerY="60"
+        android:radius="12dp"
+        android:fillColor="#ffdbac" />
+    <!-- Hair -->
+    <path
+        android:fillColor="#8B4513"
+        android:pathData="M70,50 Q80,45 90,50 Q88,55 80,55 Q72,55 70,50 Z" />
+    <!-- Body -->
+    <path
+        android:fillColor="#ffffff"
+        android:pathData="M68,80 L92,80 L92,120 L68,120 Z" />
+    <!-- Arms -->
+    <path
+        android:fillColor="#ffffff"
+        android:pathData="M60,85 L68,85 L68,110 L60,110 Z" />
+    <path
+        android:fillColor="#ffffff"
+        android:pathData="M92,85 L100,85 L100,110 L92,110 Z" />
+    <!-- Legs -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M72,120 L82,120 L82,150 L72,150 Z" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M82,120 L92,120 L92,150 L82,150 Z" />
+    <!-- Raised fist -->
+    <circle
+        android:centerX="96"
+        android:centerY="75"
+        android:radius="4dp"
+        android:fillColor="#ffdbac" />
+    
+    <!-- Player 2 (Center) - Blue jersey -->
+    <!-- Head -->
+    <circle
+        android:centerX="150"
+        android:centerY="45"
+        android:radius="14dp"
+        android:fillColor="#ffdbac" />
+    <!-- Hair -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M138,32 Q150,27 162,32 Q160,40 150,40 Q140,40 138,32 Z" />
+    <!-- Body -->
+    <path
+        android:fillColor="#00bfff"
+        android:pathData="M136,65 L164,65 L164,110 L136,110 Z" />
+    <!-- Jersey text area -->
+    <path
+        android:fillColor="#ffffff"
+        android:pathData="M140,75 L160,75 L160,83 L140,83 Z" />
+    <!-- Arms -->
+    <path
+        android:fillColor="#00bfff"
+        android:pathData="M126,70 L136,70 L136,100 L126,100 Z" />
+    <path
+        android:fillColor="#00bfff"
+        android:pathData="M164,70 L174,70 L174,100 L164,100 Z" />
+    <!-- Legs -->
+    <path
+        android:fillColor="#00bfff"
+        android:pathData="M140,110 L152,110 L152,145 L140,145 Z" />
+    <path
+        android:fillColor="#00bfff"
+        android:pathData="M152,110 L164,110 L164,145 L152,145 Z" />
+    
+    <!-- Player 3 (Right) - Black jersey -->
+    <!-- Head -->
+    <circle
+        android:centerX="220"
+        android:centerY="65"
+        android:radius="12dp"
+        android:fillColor="#ffdbac" />
+    <!-- Hair -->
+    <path
+        android:fillColor="#654321"
+        android:pathData="M210,55 Q220,50 230,55 Q228,60 220,60 Q212,60 210,55 Z" />
+    <!-- Body -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M208,85 L232,85 L232,125 L208,125 Z" />
+    <!-- Arms -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M200,90 L208,90 L208,115 L200,115 Z" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M232,90 L240,90 L240,115 L232,115 Z" />
+    <!-- Legs -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M212,125 L222,125 L222,155 L212,155 Z" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M222,125 L232,125 L232,155 L222,155 Z" />
+    <!-- Raised fist -->
+    <circle
+        android:centerX="204"
+        android:centerY="80"
+        android:radius="4dp"
+        android:fillColor="#ffdbac" />
+    
+</vector>
